@@ -1,2 +1,2 @@
 # Exerc5 
-https://adriportugal502.github.io/Exerc5.github.io/ficheiro.html/index.html
+https://adriportugal502.github.io/Exerc5/ficheiro.html/index.html
