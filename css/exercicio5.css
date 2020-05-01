@@ -392,14 +392,14 @@ img {vertical-align: middle;}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: yellow;
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: yellow;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 40px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -428,7 +428,7 @@ img {vertical-align: middle;}
 }
 
 .active, .dot:hover {
-  background-color: coral;
+  background-color: yellow;
 }
 
 /* Fading animation */
@@ -499,10 +499,8 @@ img {vertical-align: middle;}
 
 
 
-@media only screen and (max-width: 900px) {
-  div.container {
-    display: none;
-  }
+@media only screen and (max-width: 760px) {
+
 
   div.tabletPC {
     display: none;
@@ -510,7 +508,7 @@ img {vertical-align: middle;}
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   div.overlay {
     display: none;
   }
@@ -521,10 +519,16 @@ img {vertical-align: middle;}
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
+  div.container {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 760px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
 }
-
